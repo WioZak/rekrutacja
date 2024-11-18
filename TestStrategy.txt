@@ -1,0 +1,11 @@
+3 top most important features
+- User can log in to the application
+- User can see the product list
+- User can order the product
+
+3 top least important features
+- User opens About page
+- Icons of Twitter, Facebook and LinkedIn are clickable and redirect to correct site upon clicking
+- Sorting
+
+
