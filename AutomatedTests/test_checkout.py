@@ -8,7 +8,7 @@ import re
 
 
 
-@pytest.mark.parametrize("locale_code", ['en_GB', 'es_ES'])
+@pytest.mark.parametrize("locale_code", ['en_GB.UTF8', 'es_ES'])
 def test_successfully_order_one_product(page: Page, locale_code):
     page.goto("")
     locale.setlocale(locale.LC_ALL , locale_code)
