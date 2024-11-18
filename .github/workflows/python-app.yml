@@ -25,9 +25,9 @@ jobs:
         python-version: "3.13"
     - name: Install locale
       run: |
-        sudo apt-get update
-        sudo apt-get install -y language-pack-en
-        sudo apt-get install -y language-pack-es
+        sudo brew update
+        sudo brew install -y language-pack-en
+        sudo brew install -y language-pack-es
         sudo locale-gen en_GB.UTF-8
         sudo locale-gen es_ES.UTF-8
         sudo update-locale LANG=en_GB.UTF-8
