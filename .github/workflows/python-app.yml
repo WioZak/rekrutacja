@@ -32,5 +32,5 @@ jobs:
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Test with pytest
       run: |
-        pytest test_login.py --base-url https://www.saucedemo.com/v1/index.html
+        pytest ../AutomatedTests/test_login.py --base-url https://www.saucedemo.com/v1/index.html
 
