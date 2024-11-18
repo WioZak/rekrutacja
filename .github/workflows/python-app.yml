@@ -30,7 +30,7 @@ jobs:
         playwright install
         python -m pip install pytest-html
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-    - name: Test with pytest and generate an HTML report
+    - name: Test with pytest
       run: |
-        pytest --base-url https://www.saucedemo.com/v1/index.html --html=report.html
+        pytest --base-url https://www.saucedemo.com/v1/index.html
 
