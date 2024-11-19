@@ -14,7 +14,8 @@ and click Enter.
 All run options are defined in pytest.ini file.
 Report can be found in AutomatedTests/report.html file. Example report is in the repository
 
-Test script supports different translations. Since SauceLabs is not translated to Spanish, there will be failed test cases for es_ES locale. Next step would be validating the currency.
+Test script supports different translations. Since SauceLabs is not translated to Spanish, there will be failed test cases for es_ES locale. 
+Next steps would be validating the currency and checking if text fits the elements, e.g. buttons.
 
 Tests run in Github Actions on macOS instance once every day.
 YML file is defined so that we can run a specific suite, in this case test_login, using step:

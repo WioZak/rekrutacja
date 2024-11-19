@@ -8,4 +8,14 @@
 - Icons of Twitter, Facebook and LinkedIn are clickable and redirect to correct site upon clicking
 - Sorting
 
-
+Testing Progressive Web Apps
+Some of the challenges of PWAs are:
+ - Offline Mode
+    Example strategy: we can simulate Offline Mode by using browser developer tools or automation frameworks that allow us to simulate these conditions or use network mocking.
+ - Notifications and Background Synchronisation
+    Tool like Playwright can be used to check if service workers are correctly installed and are functioning as expected.
+ - Testing Across Web & Mobile
+    For mobile-specific behaviors use emulation features of Playwright.
+ - Performance (PWAs aim to provide fast and reliable experience)
+    Perform load testing and performance audits (audits can be made using e.g. Google Lighthouse)
+    
